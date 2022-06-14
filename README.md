@@ -4,7 +4,7 @@ This a simple microservice developed to consume two external REST API:
  * http://dummy.restapiexample.com/api/v1/employees
  * http://dummy.restapiexample.com/api/v1/employees
 
-The service return in JSON format, rather be a list of employees or a especific employee searching for its ID
+The service return in JSON format, rather be a list of employees or a especific employee searching for its ID and a simple view to show the employee list.
 
 ## Built with 🛠️
 
@@ -28,6 +28,11 @@ Once you have deployed, go to Internet browser and put http://localhost:8001/; o
 Enter http://localhost:8001/search_by_id.html to access the view for searching a employee by his ID.
 
 ![alt text](https://github.com/luissaltron21/employee-service/blob/30489ac8bc91a92b17903926d23561d5a45d4dfa/src/main/resources/static/images/search_by_id.png)
+
+### REST API Methods
+Besides the views described prior, you can access to REST API methods, to get the response in JSON format using this URL's:
+* http://localhost:8001/employee/
+* http://localhost:8001/employee/1
 
 ### Configuration and parameters
 The applications is set by default to deploy on port 8001, you can change this setting editing application.properties file. You can find it on /src/main/resources/application.properties
