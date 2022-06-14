@@ -24,9 +24,10 @@ Once you have deployed, go to Internet browser and put http://localhost:8001/; o
 
 ![alt text](https://github.com/luissaltron21/employee-service/blob/a02c0246301196668bc146a9d31477880ee64118/src/main/resources/static/images/index_preview.png)
 
+
 Enter http://localhost:8001/search_by_id.html to access the view for searching a employee by his ID.
 
-
+![alt text](https://github.com/luissaltron21/employee-service/blob/30489ac8bc91a92b17903926d23561d5a45d4dfa/src/main/resources/static/images/search_by_id.png)
 
 ### Configuration and parameters
 The applications is set by default to deploy on port 8001, you can change this setting editing application.properties file. You can find it on /src/main/resources/application.properties
